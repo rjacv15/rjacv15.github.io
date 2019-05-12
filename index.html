@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>TreasureHunt</title>
+        <link rel="icon" src="shortcut icon" href="file:///Users/learn/Desktop/jump%20start/treasure_chest_favi.ico">
+        <link rel="stylesheet" href="treasurehunt.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Charm">
+    </head>
+    <body>
+        <div class="content">
+
+        <h1 id="top-page" style="color:gold;">Treasure Hunt</h1>
+        <a href="https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG61.png" target="_blank"><img id="treasureChest" src="https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG61.png" height="200px" alt="treasure Chest"></a>
+        <h2 style="color:gold;">Find the Treasure!</h2>
+        <ol>
+                <li style="color:gold;">Find the treasure without clicking on a bomb</li>
+                <li style="color:gold;">Find the treasure before you run out of clicks</li>
+                <li style="color:gold;">Do not cheat by inspecting the element!!!</li>
+                <li style="color:gold;">You win if you click the treasure</li>
+        </ol>
+        <div>
+            <h3 id=11 style="color:gold;">Number of trys:</h3><h3 id=10 style="color:gold;">3</h3>
+            <table style="border: 2px solid gold" height="300px" width="300px">
+                <tr style="text-align: center">
+                    <td id=0 class="square" onclick="treasure(0); counter++;" style="color:gold;">?</td>
+                    <td id=1 class="square" onclick="treasure(1); counter++;" style="color:gold;">?</td>
+                    <td id=2 class="square" onclick="treasure(2); counter++;" style="color:gold;">?</td>
+                </tr>
+                <tr style="text-align: center">
+                    <td id=3 class="square" onclick="treasure(3); counter++;" style="color:gold;">?</td>
+                    <td id=4 class="square" onclick="treasure(4); counter++;" style="color:gold;">?</td>
+                    <td id=5 class="square" onclick="treasure(5); counter++;" style="color:gold;">?</td>
+                </tr>
+                <tr style="text-align: center">
+                    <td id=6 class="square" onclick="treasure(6); counter++;" style="color:gold;">?</td>
+                    <td id=7 class="square" onclick="treasure(7); counter++;" style="color:gold;">?</td>
+                    <td id=8 class="square" onclick="treasure(8); counter++;" style="color:gold;">?</td>
+                </tr>
+                </table>
+            </div>
+            <button type="button" onclick="location.reload()">Restart Game</button>
+            <footer>
+                <a href="#top-page" style="color:gold;">Top of the page</a>
+                <a href="https://www.google.com/" target="_blank" style="color:gold;">Google</a>
+            </footer>
+            <script type="text/javascript" src="treasurehunt.js"></script>
+        </div>
+    </body>
+</html>

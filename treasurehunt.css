@@ -1,0 +1,115 @@
+body{
+    background-color: slateblue;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/18/31/treasure-map-153425_960_720.png), url(https://www.goodfreephotos.com/albums/vector-images/gold-coin-vector-art.png);
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    background-size: 1200px, 500px;
+}
+h1{
+    border: 5px solid gold;
+    font-family: Charm;
+    font-size: 40px;
+}
+h2{
+    font-family: Charm;
+    font-size: 30px;
+}
+h3{
+    font-family: Charm;
+    font-size: 24px;
+}
+ol{
+    font-family: Charm;
+    font-size: 24px;
+}
+.content{
+    background-color: rgba(100, 100, 150, 0.9);
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid navy;
+    margin: 50px;
+    border-image: url(https://www.goodfreephotos.com/albums/vector-images/gold-coin-vector-art.png) 30% stretch;
+}
+td:hover{
+    background-color: mediumslateblue;
+}
+footer:hover{
+    background-color: mediumslateblue;
+}
+.square{
+    border: 1px solid gold;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    font-family: Charm;
+    font-size: 24px;
+}
+@keyframes bounceIn {
+0% {
+    transform: scale(0.1);
+    opacity: 0;
+}
+60% {
+    transform: scale(1.2);
+    opacity: 1;
+}
+100% {
+    transform: scale(1);
+}
+}
+@keyframes inBounce {
+    10% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    }
+@keyframes rotate {
+100% {
+    transform: rotate(5turn);
+}
+}
+@keyframes translate {
+100% {
+    transform: translate(-90%);
+}
+}
+@keyframes rotate2 {
+100% {
+    transform: rotate(5turn) scale(0.5);
+}
+}
+h1 {
+    animation: bounceIn 2s;
+}
+h2 {
+    animation: inBounce 2s;
+}
+#treasureChest{
+    animation: rotate 2s;
+}
+ol {
+    animation: rotate2 2s;
+}
+h3 {
+    animation: bounceIn 2s;
+}
+.square {
+    animation: rotate 2s;
+}
+table {
+    animation: rotate 2s;
+}
+button {
+    animation: bounceIn 2s;
+}
+footer {
+    animation: bounceIn 2s;
+}
